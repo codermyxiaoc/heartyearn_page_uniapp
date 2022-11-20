@@ -1,0 +1,8 @@
+{
+  "name": "phonelogin",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {},
+	"uni-cloud-verify": {}
+  }
+}

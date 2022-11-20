@@ -1,0 +1,87 @@
+{
+  "id": "bugking7-contact-list",
+  "displayName": "仿微信通讯录列表组件",
+  "version": "1.2.0",
+  "description": "仿微信通讯录列表组件，可实现不带选择框状态通讯录列表和带选择框状态下选择多个联系人功能。根据微信逻辑，当带选择框状态下，具有搜索功能，本组件仅为示例搜索，实际项目中搜索功能须二次开发。",
+  "keywords": [
+    "通讯录列表",
+    "微信通讯录",
+    "列表组件",
+    "字母列表"
+],
+  "repository": "https://gitee.com/bugking7_uniapp_plug/bugking-contact-demo",
+"engines": {
+  },
+  "dcloudext": {
+    "type": "component-vue",
+    "sale": {
+      "regular": {
+        "price": "0.00"
+      },
+      "sourcecode": {
+        "price": "0.00"
+      }
+    },
+    "contact": {
+      "qq": ""
+    },
+    "declaration": {
+      "ads": "无",
+      "data": "插件不采集任何数据",
+      "permissions": "无"
+    },
+    "npmurl": ""
+  },
+  "uni_modules": {
+    "dependencies": [],
+    "encrypt": [],
+    "platforms": {
+      "cloud": {
+        "tcb": "y",
+        "aliyun": "y"
+      },
+      "client": {
+        "Vue": {
+          "vue2": "y",
+          "vue3": "y"
+        },
+        "App": {
+          "app-vue": "y",
+          "app-nvue": "y"
+        },
+        "H5-mobile": {
+          "Safari": "y",
+          "Android Browser": "y",
+          "微信浏览器(Android)": "y",
+          "QQ浏览器(Android)": "y"
+        },
+        "H5-pc": {
+          "Chrome": "y",
+          "IE": "y",
+          "Edge": "y",
+          "Firefox": "y",
+          "Safari": "y"
+        },
+        "小程序": {
+          "微信": "y",
+          "阿里": "y",
+          "百度": "y",
+          "字节跳动": "y",
+          "QQ": "y",
+          "钉钉": "y",
+          "快手": "y",
+          "飞书": "y",
+          "京东": "y"
+        },
+        "快应用": {
+          "华为": "y",
+          "联盟": "y"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "js-pinyin": "^0.1.9",
+    "pinyin-pro": "^3.11.0"
+  }
+}
